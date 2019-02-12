@@ -5,7 +5,7 @@ class Hash
         v
       else nil
       end 
-    }.compact!
+    }.compact
   end 
 end 
 

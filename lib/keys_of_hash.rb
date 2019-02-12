@@ -1,7 +1,7 @@
 class Hash
   def keys_of(*arg)
     keys = []
-    Hash.map do |item| 
+    Hash.collect do |item| 
       if item == arg
         keys.push (item)
       end

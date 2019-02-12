@@ -1,4 +1,4 @@
-def keys_of_hash
+def keys_of_hash(*)
 end 
 
 

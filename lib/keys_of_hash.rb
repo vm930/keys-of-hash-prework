@@ -2,7 +2,7 @@ class Hash
   def keys_of(*arg)
     map do |item| 
       if item == arg
-        return item
+        return arg
       end
     end
   end 

@@ -2,7 +2,7 @@ class Hash
   def keys_of(*arg)
     map do |k,v| 
       if v == arg
-        return arg.compact!
+        return k.compact!
       end
     end
   end 

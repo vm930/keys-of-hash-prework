@@ -1,10 +1,8 @@
 class Hash
   def keys_of(*arg)
-    map do |k,v| 
-      if v == arg
-        return k.compact!
+    map { |k,v| if v == arg k.compact!
       end
-    end
+    }
   end 
 end 
 

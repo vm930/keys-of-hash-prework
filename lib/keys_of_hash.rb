@@ -4,6 +4,7 @@ class Hash
       if item == arg
         item
       end
+    end
   end 
 end 
 

@@ -1,6 +1,7 @@
 class Hash
   def keys_of_hash(*arg)
-    arg
+    Hash.each do |item| 
+      if item == *arg
   end 
 end 
 

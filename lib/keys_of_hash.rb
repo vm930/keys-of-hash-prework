@@ -1,4 +1,6 @@
+class Hash
 def keys_of_hash(*arg)
+end 
 end 
 
 

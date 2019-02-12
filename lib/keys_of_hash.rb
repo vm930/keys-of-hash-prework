@@ -3,7 +3,7 @@ class Hash
     keys = []
     map do |item| 
       if item == arg
-        keys.push (item)
+        keys.push (arg)
       end
     end
   end 

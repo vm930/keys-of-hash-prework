@@ -1,9 +1,8 @@
 class Hash
   def keys_of(*arg)
-    keys = []
     map do |item| 
       if item == arg
-        keys.push (arg)
+        arg
       end
     end
   end 

@@ -1,12 +1,22 @@
 class Hash
   def keys_of_hash(*arg)
+    keys = []
     Hash.map do |item| 
       if item == arg
-        item
+        keys.push (item)
       end
     end
   end 
 end 
+
+
+
+
+
+
+
+
+
 
 
 

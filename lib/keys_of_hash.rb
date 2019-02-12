@@ -2,7 +2,7 @@ class Hash
   def keys_of(*arg)
     map {|k,v| 
       if arg.include?(v)
-        v
+        k
       else nil
       end 
     }.compact
@@ -10,17 +10,6 @@ class Hash
 end 
 
 
-
-
-
-
-
-
-
-
-
-
-# class Hash
 #   def keys_of(*args)
 #     map {|k, v| args.include?(v) ? k : nil }.compact
 #   end

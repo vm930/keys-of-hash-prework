@@ -1,5 +1,5 @@
 class Hash
-  def keys_of_hash(*arg)
+  def keys_of(*arg)
     keys = []
     Hash.map do |item| 
       if item == arg
